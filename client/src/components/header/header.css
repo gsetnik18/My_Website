@@ -1,0 +1,10 @@
+.header-div {
+    flex-direction: row;
+    width: 100%;
+    background-color: #248edf;
+}
+
+button {
+    padding: 3px;
+    margin: 5px;
+}

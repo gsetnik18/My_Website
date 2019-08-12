@@ -1,0 +1,33 @@
+{
+  "name": "my_website",
+  "version": "1.0.0",
+  "description": "A package for my personal website.",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsetnik18/My_Website.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "NodeJS"
+  ],
+  "author": "Gregory Setnik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsetnik18/My_Website/issues"
+  },
+  "homepage": "https://github.com/gsetnik18/My_Website#readme"
+}
