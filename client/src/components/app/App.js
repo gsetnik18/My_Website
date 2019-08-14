@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../header/header.js';
+import Footer from '../footer/footer.js';
 
 class App extends Component {
   state = {
@@ -53,6 +54,7 @@ render() {
           <button type="submit">Submit</button>
         </form>
         <p>{this.state.responseToPost}</p>
+        <Footer />
       </div>
     );
   }
