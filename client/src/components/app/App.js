@@ -54,6 +54,7 @@ render() {
           <button type="submit">Submit</button>
         </form>
         <p>{this.state.responseToPost}</p>
+
         <Footer />
       </div>
     );
