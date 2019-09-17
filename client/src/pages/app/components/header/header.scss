@@ -1,0 +1,15 @@
+.headerDivWrapper {
+    width: 100%;
+}
+
+.headerDiv {
+    flex-direction: row;
+    width: 100%;
+    background-color: #248edf;
+}
+
+.pageLink, .pageTitle {
+    padding: 3px;
+    margin: 5px;
+    color: white;
+}
